@@ -55,13 +55,15 @@ mostrar algum resultado relevante do trabalho (até 10 linhas)._
 	3.2. Visão Lógica <br />
 	3.3. Modelo de dados (opcional) <br />
 
-4. [Avaliação](#avaliacao "Avaliação da Arquitetura") <br />
-	4.1. Cenários <br />
-	4.2. Avaliação <br />
+4. [Solução](#solucao "Projeto da Solução") <br />
 
-5. [Referências](#referencias "REFERÊNCIAS")<br />
+5. [Avaliação](#avaliacao "Avaliação da Arquitetura") <br />
+	5.1. Cenários <br />
+	5.2. Avaliação <br />
 
-6. [Apêndices](#apendices "APÊNDICES")<br />
+6. [Referências](#referencias "REFERÊNCIAS")<br />
+
+7. [Apêndices](#apendices "APÊNDICES")<br />
 
 
 <a name="apresentacao"></a>
@@ -230,12 +232,17 @@ _Caso julgue necessário para explicar a arquitetura, apresente o diagrama de cl
 
 Obs: Acrescente uma breve descrição sobre o diagrama apresentado na Figura 3.
 
+<a name="solucao"></a>
+# 4. Projeto da Solução
+
+_Apresente as telas dos sistema construído com uma descrição sucinta de cada uma das interfaces._
+
 <a name="avaliacao"></a>
-# 4. Avaliação da Arquitetura
+# 5. Avaliação da Arquitetura
 
 _Esta seção descreve a avaliação da arquitetura apresentada, baseada no método ATAM._
 
-## 4.1. Cenários
+## 5.1. Cenários
 
 _Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos não funcionais sendo satisfeitos. Os requisitos a seguir são apenas exemplos de possíveis requisitos, devendo ser revistos, adequados a cada projeto e complementados de forma a terem uma especificação completa e auto-explicativa._
 
@@ -247,7 +254,7 @@ _Apresente os cenários de testes utilizados na realização dos testes da sua a
 
 **Cenário 4 - Segurança:** Suspendisse consectetur porta tortor non convallis. Sed lobortis erat sed dignissim dignissim. Nunc eleifend elit et aliquet imperdiet. Ut eu quam at lacus tincidunt fringilla eget maximus metus. Praesent finibus, sapien eget molestie porta, neque turpis congue risus, vel porttitor sapien tortor ac nulla. Aliquam erat volutpat.
 
-## 4.2. Avaliação
+## 5.2. Avaliação
 
 _Apresente as medidas registradas na coleta de dados. O que não for possível quantificar apresente uma justificativa baseada em evidências qualitativas que suportam o atendimento do requisito não-funcional. Apresente uma avaliação geral da arquitetura indicando os pontos fortes e as limitações da arquitetura proposta._
 
@@ -273,7 +280,7 @@ Evidências dos testes realizados
 _Apresente imagens, descreva os testes de tal forma que se comprove a realização da avaliação._
 
 <a name="referencias"></a>
-# 5. REFERÊNCIAS
+# 6. REFERÊNCIAS
 
 _Como um projeto da arquitetura de uma aplicação não requer revisão bibliográfica, a inclusão das referências não é obrigatória. No entanto, caso você deseje incluir referências relacionadas às tecnologias, padrões, ou metodologias que serão usadas no seu trabalho, relacione-as de acordo com a ABNT._
 
@@ -294,6 +301,6 @@ http://www.pucminas.br/imagedb/documento/DOC\_DSC\_NOME\_ARQUI20160217102425.pdf
 
 
 <a name="apendices"></a>
-# 6. APÊNDICES
+# 7. APÊNDICES
 
 _Inclua o URL do repositório (Github, Bitbucket, etc) onde você armazenou o código da sua prova de conceito/protótipo arquitetural da aplicação como anexos. A inclusão da URL desse repositório de código servirá como base para garantir a autenticidade dos trabalhos._
