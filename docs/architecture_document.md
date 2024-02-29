@@ -93,13 +93,13 @@ _Esta seção descreve os requisitos comtemplados nesta descrição arquitetural
 
 _Enumere os requisitos funcionais previstos para a sua aplicação. Concentre-se nos requisitos funcionais que sejam críticos para a definição arquitetural. Lembre-se de listar todos os requisitos que são necessários para garantir cobertura arquitetural. Esta seção deve conter uma lista de requisitos ainda sem modelagem. Na coluna Prioridade utilize uma escala (do mais prioritário para o menos): Essencial, Desejável, Opcional._
 
-| **ID** | **Descrição** | **Prioridade** |
-| --- | --- | --- |
-| RF001 | | |
-| RF002 | | |
-| | | |
-| | | |
-| | | |
+| **ID** | **Descrição** | **Prioridade** | **Plataforma** |
+| --- | --- | --- | --- |
+| RF001 | | | _web_ |
+| RF002 | | | _mobile_ |
+| RF003 | | | _web e mobile_ |
+| | | | |
+| | | | |
 
 Obs: acrescente mais linhas, se necessário.
 
@@ -142,7 +142,7 @@ _Visão geral dos mecanismos que compõem a arquitetura do sosftware baseando-se
 | Deploy | | |
 
 <a name="modelagem"></a>
-# 3. Modelagem e projeto arquitetural
+# 3. Modelagem e Projeto Arquitetural
 
 _Apresente uma visão geral da solução proposta para o projeto e explique brevemente esse diagrama de visão geral, de forma textual. Esse diagrama não precisa seguir os padrões da UML, e deve ser completo e tão simples quanto possível, apresentando a macroarquitetura da solução._
 
@@ -162,29 +162,9 @@ _Apresente uma lista simples com as funcionalidades previstas no projeto (escopo
 
 Obs: a quantidade e o escopo das funcionalidades deve ser negociado com os professores/orientadores do trabalho.
 
-### Descrição resumida dos Casos de Uso / Histórias de Usuário
+### Histórias de Usuário
 
-_Nesta seção, os casos de uso devem ser resumidos. Esse detalhamento pode ser na forma de um texto sintético ou, alternativamente, você pode optar por descrever estórias de usuários seguindo os métodos ágeis. Neste caso a seção deve chamar &quot;Histórias de usuários&quot;. Lembre-se das características de qualidade das estórias de usuários, ou seja, o que é preciso para descrever boas histórias de usuários._
-
-Exemplos de resumo de Casos de Uso:
-
-#### UC01 – NOME DO CASO DE USO 01
-
-| **Descrição** | |
-| --- | --- |
-| **Atores** | |
-| **Prioridade** | |
-| **Requisitos associados** | |
-| **Fluxo Principal** | |
-
-#### UC02 – NOME DO CASO DE USO 02
-
-| **Descrição** | |
-| --- | --- |
-| **Atores** | |
-| **Prioridade** | |
-| **Requisitos associados** | |
-| **Fluxo Principal** | |
+_Nesta seção, você deve descrever estórias de usuários seguindo os métodos ágeis. Lembre-se das características de qualidade das estórias de usuários, ou seja, o que é preciso para descrever boas histórias de usuários._
 
 Exemplos de Histórias de Usuário:
 
