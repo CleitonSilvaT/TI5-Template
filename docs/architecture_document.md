@@ -108,7 +108,7 @@ _Estão seçaõ explora um pouco mais o produto a ser desenvolvido_
 <table>
   <tr>
     <td style="vertical-align: top; width: 150px;">
-      <img src="imagens/persona.jpg" alt="Imagem da Persona" style="max-width: 100%;">
+      <img src="imagens/persona.jpg" alt="Imagem da Persona"  style="width: 100px; height: auto; border-radius: 10px;">
     </td>
     <td style="vertical-align: top; padding-left: 10px;">
       <strong>Nome:</strong> Ana Souza <br>
