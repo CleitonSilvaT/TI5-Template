@@ -18,7 +18,7 @@ Professores:
 
 ---
 
-_Curso de Engenharia de Software, Unidade Praça da Liberdade_
+_Curso de Engenharia de Software, Campus Lourdes_
 
 _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Minas Gerais (PUC MINAS), Belo Horizonte – MG – Brasil_
 
@@ -43,27 +43,35 @@ mostrar algum resultado relevante do trabalho (até 10 linhas)._
 	1.1. Problema <br />
 	1.2. Objetivos do trabalho <br />
 	1.3. Definições e Abreviaturas <br />
+ 
+2. [Nosso Produto](#produto "Nosso Produto") <br />
+	2.1. Visão do Produto <br />
+   	2.2. Nosso Produto <br />
+   	2.3. Personas <br />
 
-2. [Requisitos](#requisitos "Requisitos") <br />
-'	2.1. Requisitos Funcionais <br />
-	2.2. Requisitos Não-Funcionais <br />
-	2.3. Restrições Arquiteturais <br />
-	2.4. Mecanismos Arquiteturais <br />
+3. [Requisitos](#requisitos "Requisitos") <br />
+	3.1. Requisitos Funcionais <br />
+	3.2. Requisitos Não-Funcionais <br />
+	3.3. Restrições Arquiteturais <br />
+	3.4. Mecanismos Arquiteturais <br />
 
-3. [Modelagem](#modelagem "Modelagem e projeto arquitetural") <br />
-	3.1. Visão de Negócio <br />
-	3.2. Visão Lógica <br />
-	3.3. Modelo de dados (opcional) <br />
+4. [Modelagem](#modelagem "Modelagem e projeto arquitetural") <br />
+	4.1. Visão de Negócio <br />
+	4.2. Visão Lógica <br />
+	4.3. Modelo de dados (opcional) <br />
 
-4. [Solução](#solucao "Projeto da Solução") <br />
+5. [Wireframes](#wireframes "Wireframes") <br />
 
-5. [Avaliação](#avaliacao "Avaliação da Arquitetura") <br />
-	5.1. Cenários <br />
-	5.2. Avaliação <br />
+6. [Solução](#solucao "Projeto da Solução") <br />
 
-6. [Referências](#referencias "REFERÊNCIAS")<br />
+7. [Avaliação](#avaliacao "Avaliação da Arquitetura") <br />
+	7.1. Cenários <br />
+	7.2. Avaliação <br />
 
-7. [Apêndices](#apendices "APÊNDICES")<br />
+8. [Referências](#referencias "REFERÊNCIAS")<br />
+
+9. [Apêndices](#apendices "APÊNDICES")<br />
+	9.1 Ferramentas <br />
 
 
 <a name="apresentacao"></a>
@@ -84,26 +92,57 @@ _Aqui você deve descrever os objetivos do trabalho indicando que o objetivo ger
 
 Coloque aqui as definições, siglas e abreviaturas utilizadas no trabalho._
 
+<a name="produto"></a>
+# 2. Nosso Produto
+
+_Estão seçaõ explora um pouco mais o produto a ser desenvolvido_
+
+## 2.1 Visão do Produto
+![Exemplo de Visão do Produto](imagens/VisaoProduto.png)
+
+## 2.2 Nosso Produto
+![Exemplo de Nosso Produto](imagens/NossoProduto.png)
+
+## 2.3 Personas
+<h2>Persona 1</h2>
+<table>
+  <tr>
+    <td style="vertical-align: top; width: 150px;">
+      <img src="imagens/persona.jpg" alt="Imagem da Persona" style="max-width: 100%;">
+    </td>
+    <td style="vertical-align: top; padding-left: 10px;">
+      <strong>Nome:</strong> Ana Souza <br>
+      <strong>Idade:</strong> 32 anos <br>
+      <strong>Hobby:</strong> Ler livros de ficção científica <br>
+      <strong>Trabalho:</strong> Desenvolvedora de software <br>
+      <strong>Personalidade:</strong> Analítica, criativa e determinada <br>
+      <strong>Sonho:</strong> Criar uma startup de tecnologia <br>
+      <strong>Dores:</strong> Falta de tempo para equilibrar trabalho e vida pessoal <br>
+    </td>
+  </tr>
+</table>
+
+
 <a name="requisitos"></a>
-# 2. Requisitos
+# 3. Requisitos
 
 _Esta seção descreve os requisitos comtemplados nesta descrição arquitetural, divididos em dois grupos: funcionais e não funcionais._
 
-## 2.1. Requisitos Funcionais
+## 3.1. Requisitos Funcionais
 
 _Enumere os requisitos funcionais previstos para a sua aplicação. Concentre-se nos requisitos funcionais que sejam críticos para a definição arquitetural. Lembre-se de listar todos os requisitos que são necessários para garantir cobertura arquitetural. Esta seção deve conter uma lista de requisitos ainda sem modelagem. Na coluna Prioridade utilize uma escala (do mais prioritário para o menos): Essencial, Desejável, Opcional._
 
-| **ID** | **Descrição** | **Prioridade** | **Plataforma** |
-| --- | --- | --- | --- |
-| RF001 | | | _web_ |
-| RF002 | | | _mobile_ |
-| RF003 | | | _web e mobile_ |
-| | | | |
-| | | | |
+| **ID** | **Descrição** | **Prioridade** | **Plataforma** | **Sprint** | **Status** |
+| --- | --- | --- | --- | --- | --- |
+| RF001 | | | _web_ | Sprint 1 | ✅ |
+| RF002 | | | _mobile_ | Sprint 1 | ❌ |
+| RF003 | | | _web e mobile_ | Sprint 1 |  |
+| | | | | | |
+| | | | | | |
 
 Obs: acrescente mais linhas, se necessário.
 
-## 2.2. Requisitos Não-Funcionais
+## 3.2. Requisitos Não-Funcionais
 
 _Enumere os requisitos não-funcionais previstos para a sua aplicação. Entre os requisitos não funcionais, inclua todos os requisitos que julgar importante do ponto de vista arquitetural ou seja os requisitos que terão impacto na definição da arquitetura. Os requisitos devem ser descritos de forma completa e preferencialmente quantitativa._
 
@@ -117,7 +156,7 @@ _Enumere os requisitos não-funcionais previstos para a sua aplicação. Entre o
 
 Obs: acrescente mais linhas, se necessário.
 
-## 2.3. Restrições Arquiteturais
+## 3.3. Restrições Arquiteturais
 
 _Enumere as restrições arquiteturais. Lembre-se de que as restrições arquiteturais geralmente não são consideradas requisitos uma vez que limitam a solução candidata. Os requisitos não impõem restrição, mas precisam ser satisfeitos._
 
@@ -126,7 +165,7 @@ As restrições impostas ao projeto que afetam sua arquitetura são (por exemplo
 - O software deverá ser desenvolvido em Python/Django;
 - A comunicação da API deve seguir o padrão RESTful.
 
-## 2.4. Mecanismos Arquiteturais
+## 3.4. Mecanismos Arquiteturais
 
 _Visão geral dos mecanismos que compõem a arquitetura do sosftware baseando-se em três estados: (1) análise, (2) design e (3) implementação. Em termos de Análise devem ser listados os aspectos gerais que compõem a arquitetura do software como: persistência, integração com sistemas legados, geração de logs do sistema, ambiente de front end, tratamento de exceções, formato dos testes, formato de distribuição/implantação (deploy), entre outros. Em Design deve-se identificar o padrão tecnológico a seguir para cada mecanismo identificado na análise. Em Implementação, deve-se identificar o produto a ser utilizado na solução.
  Ex: Análise (Persistência), Design (ORM), Implementação (Hibernate)._
@@ -142,7 +181,7 @@ _Visão geral dos mecanismos que compõem a arquitetura do sosftware baseando-se
 | Deploy | | |
 
 <a name="modelagem"></a>
-# 3. Modelagem e Projeto Arquitetural
+# 4. Modelagem e Projeto Arquitetural
 
 _Apresente uma visão geral da solução proposta para o projeto e explique brevemente esse diagrama de visão geral, de forma textual. Esse diagrama não precisa seguir os padrões da UML, e deve ser completo e tão simples quanto possível, apresentando a macroarquitetura da solução._
 
@@ -152,7 +191,7 @@ _Apresente uma visão geral da solução proposta para o projeto e explique brev
 
 Obs: substitua esta imagem por outra, adequada ao seu projeto (cada arquitetura é única).
 
-## 3.1. Visão de Negócio (Funcionalidades)
+## 4.1. Visão de Negócio (Funcionalidades)
 
 _Apresente uma lista simples com as funcionalidades previstas no projeto (escopo do produto)._
 
@@ -174,7 +213,12 @@ Exemplos de Histórias de Usuário:
 
 - Como gerente eu quero conseguir entender o progresso do trabalho do meu time, para que eu possa ter relatórios periódicos dos nossos acertos e falhas.
 
-## 3.2. Visão Lógica
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+
+## 4.2. Visão Lógica
 
 _Apresente os artefatos que serão utilizados descrevendo em linhas gerais as motivações que levaram a equipe a utilizar estes diagramas._
 
@@ -202,7 +246,7 @@ Ex: conforme diagrama apresentado na Figura X, as entidades participantes da sol
 - **Componente 1** - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc magna, accumsan eget porta a, tincidunt sed mauris. Suspendisse orci nulla, sagittis a lorem laoreet, tincidunt imperdiet ipsum. Morbi malesuada pretium suscipit.
 - **Componente 2** - Praesent nec nisi hendrerit, ullamcorper tortor non, rutrum sem. In non lectus tortor. Nulla vel tincidunt eros.
 
-## 3.3. Modelo de dados (opcional)
+## 4.3. Modelo de dados (opcional)
 
 _Caso julgue necessário para explicar a arquitetura, apresente o diagrama de classes ou diagrama de Entidade/Relacionamentos ou tabelas do banco de dados. Este modelo pode ser essencial caso a arquitetura utilize uma solução de banco de dados distribuídos ou um banco NoSQL._
 
@@ -212,17 +256,25 @@ _Caso julgue necessário para explicar a arquitetura, apresente o diagrama de cl
 
 Obs: Acrescente uma breve descrição sobre o diagrama apresentado na Figura 3.
 
+<a name="wireframes"></a>
+# 5. Wireframes
+
+> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
+> estrutura de um site web e seu relacionamentos entre suas
+> páginas. Um wireframe web é uma ilustração semelhante ao
+> layout de elementos fundamentais na interface.
+
 <a name="solucao"></a>
-# 4. Projeto da Solução
+# 6. Projeto da Solução
 
 _Apresente as telas dos sistema construído com uma descrição sucinta de cada uma das interfaces._
 
 <a name="avaliacao"></a>
-# 5. Avaliação da Arquitetura
+# 7. Avaliação da Arquitetura
 
 _Esta seção descreve a avaliação da arquitetura apresentada, baseada no método ATAM._
 
-## 5.1. Cenários
+## 7.1. Cenários
 
 _Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos não funcionais sendo satisfeitos. Os requisitos a seguir são apenas exemplos de possíveis requisitos, devendo ser revistos, adequados a cada projeto e complementados de forma a terem uma especificação completa e auto-explicativa._
 
@@ -234,7 +286,7 @@ _Apresente os cenários de testes utilizados na realização dos testes da sua a
 
 **Cenário 4 - Segurança:** Suspendisse consectetur porta tortor non convallis. Sed lobortis erat sed dignissim dignissim. Nunc eleifend elit et aliquet imperdiet. Ut eu quam at lacus tincidunt fringilla eget maximus metus. Praesent finibus, sapien eget molestie porta, neque turpis congue risus, vel porttitor sapien tortor ac nulla. Aliquam erat volutpat.
 
-## 5.2. Avaliação
+## 7.2. Avaliação
 
 _Apresente as medidas registradas na coleta de dados. O que não for possível quantificar apresente uma justificativa baseada em evidências qualitativas que suportam o atendimento do requisito não-funcional. Apresente uma avaliação geral da arquitetura indicando os pontos fortes e as limitações da arquitetura proposta._
 
@@ -260,7 +312,7 @@ Evidências dos testes realizados
 _Apresente imagens, descreva os testes de tal forma que se comprove a realização da avaliação._
 
 <a name="referencias"></a>
-# 6. REFERÊNCIAS
+# 8. REFERÊNCIAS
 
 _Como um projeto da arquitetura de uma aplicação não requer revisão bibliográfica, a inclusão das referências não é obrigatória. No entanto, caso você deseje incluir referências relacionadas às tecnologias, padrões, ou metodologias que serão usadas no seu trabalho, relacione-as de acordo com a ABNT._
 
@@ -281,6 +333,15 @@ http://www.pucminas.br/imagedb/documento/DOC\_DSC\_NOME\_ARQUI20160217102425.pdf
 
 
 <a name="apendices"></a>
-# 7. APÊNDICES
+# 9. APÊNDICES
 
 _Inclua o URL do repositório (Github, Bitbucket, etc) onde você armazenou o código da sua prova de conceito/protótipo arquitetural da aplicação como anexos. A inclusão da URL desse repositório de código servirá como base para garantir a autenticidade dos trabalhos._
+
+## 9.1 Ferramentas
+
+| Ambiente  | Plataforma              |Link de Acesso |
+|-----------|-------------------------|---------------|
+|Repositório de código | GitHub | https://github.com/XXXXXXX | 
+|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
+|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX |
+|Documentação de teste | Github | https://githun.com/xxxx |
